@@ -1,0 +1,318 @@
+---
+---
+
+@ARTICLE{PLNfrontiers,
+  selected =	 {true},
+  ABBR =	 {Front Ecol Evol},
+  AUTHOR =	 {Chiquet, Julien and Mariadassou, Mahendra and Robin,
+                  Stéphane},
+  TITLE =	 {The Poisson-Lognormal Model as a Versatile Framework
+                  for the Joint Analysis of Species Abundances},
+  JOURNAL =	 {Frontiers in Ecology and Evolution},
+  VOLUME =	 9,
+  PAGES =	 188,
+  YEAR =	 2021,
+  DOI =		 {10.3389/fevo.2021.588292},
+  ISSN =	 {2296-701X},
+  biorxiv =	 {10.1101/2020.10.07.329383v1},
+  pdf = {https://www.frontiersin.org/articles/10.3389/fevo.2021.588292/pdf},
+  ABSTRACT =	 {Joint Species Distribution Models (JSDM) provide a
+                  general multivariate framework to study the joint
+                  abundances of all species from a community. JSDM
+                  account for both structuring factors (environmental
+                  characteristics or gradients, such as habitat type
+                  or nutrient availability) and potential interactions
+                  between the species (competition, mutualism,
+                  parasitism, etc.), which is instrumental in
+                  disentangling meaningful ecological interactions
+                  from mere statistical associations. Modeling the
+                  dependency between the species is challenging
+                  because of the count-valued nature of abundance data
+                  and most JSDM rely on Gaussian latent layer to
+                  encode the dependencies between species in a
+                  covariance matrix. The multivariate
+                  Poisson-lognormal (PLN) model is one such model,
+                  which can be viewed as a multivariate mixed Poisson
+                  regression model. Inferring such models raises both
+                  statistical and computational issues, many of which
+                  were solved in recent contributions using
+                  variational techniques and convex optimization
+                  tools. The PLN model turns out to be a versatile
+                  framework, within which a variety of analyses can be
+                  performed, including multivariate sample comparison,
+                  clustering of sites or samples, dimension reduction
+                  (ordination) for visualization purposes, or
+                  inferring interaction networks. This paper presents
+                  the general PLN framework and illustrates its use on
+                  a series a typical experimental datasets. All the
+                  models and methods are implemented in the
+                  <monospace>R</monospace> package
+                  <monospace>PLNmodels</monospace>, available from
+                  <ext-link ext-link-type="uri"
+                  xlink:href="http://cran.r-project.org"
+                  xmlns:xlink="http://www.w3.org/1999/xlink">cran.r-project.org</ext-link>.},
+  bibtex_show =	 {true},
+}
+
+@InProceedings{2019_ICML_CMR,
+  ABBR =	 {ICML},
+  title =	 {Variational Inference for sparse network
+                  reconstruction from count data},
+  author =	 {Chiquet, Julien and Robin, Stephane and Mariadassou,
+                  Mahendra},
+  booktitle =	 {Proceedings of the 36th International Conference on
+                  Machine Learning},
+  abstract = {The problem of network reconstruction from continuous data has been extensively studied and
+most state of the art methods rely on variants of Gaussian Graphical Models (GGM). GGM are unfortunately badly suited to sparse count data spanning several orders of magnitude. Most inference methods for count data (SparCC, REBACCA, SPIEC-EASI, gCoda, etc) first transform counts to pseudo-Gaussian observations before using GGM. We rely instead on a PoissonLogNormal (PLN) model where counts follow Poisson distributions with parameters sampled from a latent multivariate Gaussian variable, and infer the network in the latent space using a variational inference procedure. This model allows us to (i) control for confounding covariates and differences in sampling efforts and (ii) integrate data sets from different origins. It is also competitive in terms of speed and accuracy with state of the art methods.},
+  pages =	 {1162--1171},
+  year =	 2019,
+  editor =	 {Chaudhuri, Kamalika and Salakhutdinov, Ruslan},
+  volume =	 97,
+  series =	 {Proceedings of Machine Learning Research},
+  address =	 {Long Beach, California, USA},
+  month =	 {09--15 Jun},
+  publisher =	 {PMLR},
+  url = {https://proceedings.mlr.press/v97/chiquet19a.html},
+  arxiv = {1806.03120},
+  pdf =
+  {http://proceedings.mlr.press/v97/chiquet19a/chiquet19a.pdf},
+  bibtex_show =	 {true},
+}
+
+@ARTICLE{2018_AOAS_cmr,
+  ABBR =	 {Ann Appl Stat},
+  AUTHOR =	 {Julien Chiquet and Mahendra Mariadassou and
+                  St\'ephane Robin},
+  TITLE =	 {Variational inference for probabilistic Poisson PCA},
+  JOURNAL =	 {Ann. Appl. Statist.},
+  FJOURNAL =	 {The Annals of Applied Statistics},
+  abstract = {Many application domains, such as ecology or genomics, have to deal with multivariate non-Gaussian observations. A typical example is the joint observation of the respective abundances of a set of species in a series of sites aiming to understand the covariations between these species. The Gaussian setting provides a canonical way to model such dependencies but does not apply in general. We consider here the multivariate exponential family framework for which we introduce a generic model with multivariate Gaussian latent variables. We show that approximate maximum likelihood inference can be achieved via a variational algorithm for which gradient descent easily applies. We show that this setting enables us to account for covariates and offsets. We then focus on the case of the Poisson-lognormal model in the context of community ecology. We demonstrate the efficiency of our algorithm on microbial ecology datasets. We illustrate the importance of accounting for the effects of covariates to better understand interactions between species.},
+  YEAR =	 2018,
+  VOLUME =	 12,
+  NUMBER =	 4,
+  PAGES =	 {2674-2698},
+  ISSN =	 {1932-6157},
+  DOI =		 {10.1214/18-AOAS1177},
+  pdf = {https://projecteuclid.org/journals/annals-of-applied-statistics/volume-12/issue-4/Variational-inference-for-probabilistic-Poisson-PCA/10.1214/18-AOAS1177.pdf},
+  arxiv =	 {1703.06633},
+  bibtex_show =	 {true}
+}
+
+@article{Facon2021,
+  abbr =	 {Ecol. Lett.},
+  author =	 {Facon, Benoit and Hafsi, Abir and de la
+                  Masseli{\`e}re, Maud Charlery and Robin,
+                  St{\'e}phane and Massol, Fran{\c c}ois and Dubart,
+                  Maxime and Chiquet, Julien and Frago, Enric and
+                  Chiroleu, Fr{\'e}d{\'e}ric and Duyck, Pierre-Fran{\c
+                  c}ois and Ravign{\'e}, Virginie},
+  title =	 {Joint species distributions reveal the combined
+                  effects of host plants, abiotic factors and species
+                  competition as drivers of species abundances in
+                  fruit flies},
+  year =	 2021,
+  doi =		 {10.1111/ele.13825},
+  biorxiv =	 {early/2021/03/03/2020.12.07.414326},
+  journal =	 {Ecological Letters},
+  abstract =	 {The relative importance of ecological factors and
+                  species interactions for phytophagous insect species
+                  distributions has long been a controversial
+                  issue. Using field abundances of eight sympatric
+                  Tephritid fruit flies on 21 host plants, we inferred
+                  flies{\textquoteright} realized niches using joint
+                  species distribution modelling and network
+                  inference, on the community as a whole and
+                  separately on three groups of host plants. These
+                  inferences were then confronted to
+                  flies{\textquoteright} fundamental niches estimated
+                  through laboratory-measured fitnesses on host
+                  plants. Species abundances were mainly determined by
+                  host plants followed by climatic factors, with a
+                  minor role for competition between species sharing
+                  host plants. The relative importance of these
+                  factors mildly changed when we focused on particular
+                  host plant groups. Despite overlapping fundamental
+                  niches, specialists and generalists had almost
+                  distinct realized niches, with possible competitive
+                  exclusion of generalists by specialists on
+                  Cucurbitaceae and different assembly rules:
+                  specialists were mainly influenced by their
+                  adaptation to host plants while generalist
+                  abundances varied regardless of their fundamental
+                  host use.Competing Interest StatementThe authors
+                  have declared no competing interest.},
+  bibtex_show =	 {true}
+}
+
+@article{Lejal2021,
+  abbr =	 {Microbiome},
+  author =	 {Lejal, E and Chiquet, J and Aubert, J and Robin, S
+                  and Estrada-Pe{\~n}a, A and Rue, O and Midoux, C and
+                  Mariadassou, M and Bailly, X and Cougoul, A and
+                  Gasqui, P and Cosson, JF and Chalvet-Monfray, K and
+                  Vayssier-Taussat, M and Pollet, T},
+  title =	 {Temporal patterns in Ixodes ricinus microbial
+                  communities: an insight into tick-borne microbe
+                  interactions},
+  year =	 2021,
+  volume =	 9,
+  number =	 153,
+  doi =		 {10.1186/s40168-021-01051-8},
+  biorxiv =	 {early/2020/09/26/2020.09.26.314179},
+  journal =	 {Microbiome},
+  abstract =	 {Background Ticks transmit pathogens of medical and
+                  veterinary importance, and represent an increasing
+                  threat for human and animal health. Important steps
+                  in assessing disease risk and developing possible
+                  new future control strategies involve identifying
+                  tick-borne microbes, their temporal dynamics and
+                  interactions.Methods Using high throughput
+                  sequencing, we studied the microbiota dynamics of
+                  Ixodes ricinus from 371 nymphs collected monthly
+                  over three consecutive years in a peri-urban
+                  forest. After adjusting a Poisson Log Normal model
+                  to our data set, the implementation of a principal
+                  component analysis as well as sparse network
+                  reconstruction and differential analysis allowed us
+                  to assess inter-annual, seasonal and monthly
+                  variability of I. ricinus microbial communities as
+                  well as their interactions.Results Around 75\% of
+                  the detected sequences belonged to five genera known
+                  to be maternally inherited bacteria in arthropods
+                  and potentially circulating in ticks: Candidatus
+                  Midichloria, Rickettsia, Spiroplasma, Arsenophonus
+                  and Wolbachia. The structure of the I. ricinus
+                  microbiota was temporally variable with interannual
+                  recurrence and seemed to be mainly driven by OTUs
+                  belonging to environmental genera. The total network
+                  analysis revealed a majority of positive (partial)
+                  correlations. We identified strong relationships
+                  between OTUs belonging to Wolbachia and
+                  Arsenophonus, betraying the presence of the
+                  parasitoid wasp Ixodiphagus hookeri in ticks, and
+                  the well known arthropod symbiont Spiroplasma,
+                  previously documented to be involved in the defense
+                  against parasitoid wasp in Drosophila
+                  melanogaster. Other associations were observed
+                  between the tick symbiont Candidatus Midichloria and
+                  pathogens belonging to Rickettsia, probably
+                  Rickettsia helvetica. More specific network analysis
+                  finally suggested that the presence of pathogens
+                  belonging to genera Borrelia, Anaplasma and
+                  Rickettsia might disrupt microbial interactions in
+                  I. ricinus.Conclusions Here, we identified the
+                  I. ricinus microbiota and documented for the first
+                  time the existence and recurrence of marked temporal
+                  shifts in the tick microbial community dynamics. We
+                  statistically showed strong relationships between
+                  the presence of some pathogens and the structure of
+                  the I. ricinus non-pathogenic microbes. We
+                  interestingly detected close links between some tick
+                  symbionts and the potential presence of either
+                  pathogenic Rickettsia or a parasitoid in ticks. All
+                  these new findings might be very promising for the
+                  future development of new control strategies of
+                  ticks and tick-borne diseases.Competing Interest
+                  StatementAuthor Cedric Midoux was employed by the
+                  company Irstea. The remaining authors declare that
+                  the research was conducted in the absence of any
+                  commercial or financial relationships that could be
+                  construed as a potential conflict of
+                  interest.I. ricinusIxodes ricinusPCAPrincipal
+                  Component AnalysisOTUOperational Taxonomic
+                  UnitTBPTick-Borne Pathogens},
+  bibtex_show =	 {true},
+}
+
+@incollection{DUBART2021367,
+  ABBR =	 {Adv. Ecol. Res.},
+  title =	 {Chapter Nine - Coupling ecological network analysis
+                  with high-throughput sequencing-based surveys:
+                  Lessons from the next-generation biomonitoring
+                  project},
+  editor =	 {David A. Bohan and Alex J. Dumbrell and Adam
+                  J. Vanbergen},
+  series =	 {Advances in Ecological Research},
+  publisher =	 {Academic Press},
+  volume =	 65,
+  pages =	 {367-430},
+  year =	 2021,
+  hal =		 {hal-03634351v1},
+  booktitle =	 {The Future of Agricultural Landscapes, Part III},
+  issn =	 {0065-2504},
+  doi =		 {https://doi.org/10.1016/bs.aecr.2021.10.007},
+  url =
+                  {https://www.sciencedirect.com/science/article/pii/S0065250421000222},
+  author =	 {Maxime Dubart and Pascal Alonso and Didac
+                  Barroso-Bergada and Nathalie Becker and Kevin
+                  Bethune and David A. Bohan and Christophe Boury and
+                  Marine Cambon and Elsa Canard and Emilie Chancerel
+                  and Julien Chiquet and Patrice David and Natasha {de
+                  Manincor} and Sophie Donnet and Anne Duputié and
+                  Benoît Facon and Erwan Guichoux and Tâm {Le Minh}
+                  and Sebastián Ortiz-Martínez and Lucie Piouceau and
+                  Ambre {Sacco-Martret de Préville} and Manuel
+                  Plantegenest and Céline Poux and Virginie Ravigné
+                  and Stéphane Robin and Marine Trillat and Corinne
+                  Vacher and Christian Vernière and François Massol},
+  keywords =	 {Ecological networks, Network inference,
+                  Next-generation biomonitoring, High throughput
+                  sequencing, Logic-based machine learning,
+                  Next-generation sequencing, Microbiomes, eDNA},
+  abstract =	 {Biomonitoring ecosystems is necessary in order to
+                  evaluate risks and to efficiently manage ecosystems
+                  and their associated services. Agrosystems are the
+                  target of multiple stressors that can affect many
+                  species through effects cascading along food
+                  webs. However, classic biomonitoring, focused on
+                  species diversity or indicator species, might be a
+                  poor predictor of the risk of such whole-ecosystem
+                  perturbations. Thanks to high-throughput sequencing
+                  methods, however, it might be possible to obtain
+                  sufficient information about entire ecological
+                  communities to infer the functioning of their
+                  associated interaction networks, and thus monitor
+                  more closely the risk of the collapse of entire food
+                  webs due to external stressors. In the course of the
+                  ‘next-generation biomonitoring’ project, we
+                  collectively sought to experiment with this idea of
+                  inferring ecological networks on the basis of
+                  metabarcoding information gathered on different
+                  systems. We here give an overview of issues and
+                  preliminary results associated with this endeavour
+                  and highlight the main difficulties that such
+                  next-generation biomonitoring is still facing. Going
+                  from sampling protocols up to methods for comparing
+                  inferred networks, through biomolecular,
+                  bioinformatic, and network inference, we review all
+                  steps of the process, with a view towards generality
+                  and transferability towards other systems.},
+  bibtex_show =	 {true}
+}
+
+@Article{mariadassou2023microbiota,
+  abbr =	 {Anim. Microbiome},
+  author    = {Mariadassou, Mahendra and Nouvel, Laurent X and Constant, Fabienne and Morgavi, Diego P and Rault, Lucie and Barbey, Sarah and Helloin, Emmanuelle and Rué, Olivier and Schbath, Sophie and Launay, Frederic and Sandra, Olivier and Lefebvre, Rachel and Le Loir, Yves and Germon, Pierre and Citti, Christine and Even, Sergine},
+  title     = {Microbiota members from body sites of dairy cows are largely shared within individual hosts throughout lactation but sharing is limited in the herd},
+  journal   = {Animal Microbiome},
+  year      = {2023},
+  volume    = {5},
+  number    = {1},
+  pages     = {1--17},
+  doi       = {10.1186/s42523-023-00252-w},
+  pdf       = {https://animalmicrobiome.biomedcentral.com/counter/pdf/10.1186/s42523-023-00252-w.pdf},
+  publisher = {BioMed Central},
+  url       = {https://doi.org/10.1186/s42523-023-00252-w},
+}
+
+@Article{Thierry2023,
+  abbr = {Front. microbiol.},
+  author    = {Anne Thierry and Marie-Noelle Madec and Victoria Chuat and Anne-Sophie Bage and Olivier Picard and Cécile Grondin and Olivier Rué and Mahendra Mariadassou and Laurent Marché and Florence Valence},
+  title     = {Microbial communities of a variety of 75 homemade fermented vegetables},
+  journal   = {Frontiers in Microbiology},
+  year      = {2023},
+  doi       = {10.3389/fmicb.2023.1323424},
+  timestamp = {2023.12.06},
+}
+
+

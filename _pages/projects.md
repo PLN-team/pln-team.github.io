@@ -1,11 +1,11 @@
 ---
 layout: page
-title: projects
+title: support
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Funded projects which partially supported the development of `PLNmodels`
 nav: true
-nav_order: 2
-display_categories: [work, fun]
+nav_order: 4
+display_categories: [anr, metaprogram]
 horizontal: false
 ---
 
