@@ -1,3 +1,4 @@
+<br/>
 Jeanne Tous is a PhD student working under the supervision of Julien
 Chiquet and Wilfried Thuiller. She works on developing PLN-block, an
 extension of PLN-network that would account for potential group structures

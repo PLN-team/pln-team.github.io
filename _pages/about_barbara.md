@@ -1,3 +1,4 @@
+<br/>
 Barbara Bricout is pursuing her doctoral studies in the field of
 statistics applied to ecological sciences, with guidance from Stephane Robin,
 Sophie Donnet, and the Tour du Valat. The primary focus of her research is to
