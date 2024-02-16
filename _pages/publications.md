@@ -17,7 +17,7 @@ nav_order: 1
 
 </div>
 
-## Applications of PLN in Ecology, Microbiolgy, Genomics
+## Applications of PLN in Ecology, Microbiology, Genomics
 
 <div class="publications">
 
