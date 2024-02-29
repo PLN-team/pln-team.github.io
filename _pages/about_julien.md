@@ -1,7 +1,7 @@
 
 <br/>
 
-<a href="https://jchiquet.github.io">Julien Chiquet</a> is Senior Research in Statistical Learning, at Université Paris-Saclay/AgroParisTech/INRAE. He is heading the [UMR MIA Paris-Saclay](https://mia-ps.inrae.fr/), and he belongs to team [SOLsTIS](https://mia-ps.inrae.fr/solstis). He is also chief editor of [Computo](https://computo.sfds.fr), an academic journal promoting reproducibility  by leveraging technical advances in literate programming and scientific reporting.
+[Julien Chiquet](https://jchiquet.github.io) is Senior Research in Statistical Learning, at Université Paris-Saclay/AgroParisTech/INRAE. He is heading the [UMR MIA Paris-Saclay](https://mia-ps.inrae.fr/), and he belongs to team [SOLsTIS](https://mia-ps.inrae.fr/solstis). He is also chief editor of [Computo](https://computo.sfds.fr), an academic journal promoting reproducibility  by leveraging technical advances in literate programming and scientific reporting.
 
 <a href="https://orcid.org/0000-0002-3629-3429" title="ORCID"><i class="ai ai-orcid"></i></a>
 <a href="https://scholar.google.com/citations?user=FM2gRsYAAAAJ" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
