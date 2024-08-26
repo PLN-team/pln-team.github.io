@@ -10,6 +10,7 @@ related_posts: false
 toc:
   sidebar: left
 ---
+
 This post refers to posts on the [StateOftheR website]() about `PLNmodels`. Be caution, some posts are written in French.
 
 ## HappyR workshops
@@ -18,7 +19,7 @@ This post refers to posts on the [StateOftheR website]() about `PLNmodels`. Be c
 
 [Bastien Batardière](https://bastien-mva.github.io/) presented his `{pyPLNmodels}` Python package at a HappyR workshop in May 2023.
 
-[Link](https://stateofther.netlify.app/post/multivariatedata/)
+[Link post](https://stateofther.netlify.app/post/multivariatedata/)
 
 ## Finist'R bootcamps
 
@@ -26,7 +27,7 @@ This post refers to posts on the [StateOftheR website]() about `PLNmodels`. Be c
 
 On the [Summer Camp 2023 website](https://stateofther.github.io/finistR2023/), you'll find two sections related to `{PLNmodels}`:
 
-- one on adding new `{parsnip}` model inside the `{tidymodels}` framework, with the PLN regression of '{PLNmodels}' as an example: see [here](https://stateofther.github.io/finistR2023/tidymodels_build_new_model.html).
+- one on adding new `{parsnip}` model inside the `{tidymodels}` framework, with the PLN regression of `{PLNmodels}` as an example: see [here](https://stateofther.github.io/finistR2023/tidymodels_build_new_model.html).
 
 - a broader one on PLN, covering programming in different languages and with different optimization methods (`R`, `Python`, `Jax`, `Pytorch`): see 
   - [PLN with R-torch](https://stateofther.github.io/finistR2023/torch_R_PLN.html),
