@@ -10,7 +10,9 @@ related_posts: false
 toc:
   sidebar: left
 ---
-This post refers to citations to the main articles describing PLNmodels methodology and tools :
+
+This post refers to citations to the three main articles describing PLNmodels methodology and tools.
+[under construction page]
 
 
 
