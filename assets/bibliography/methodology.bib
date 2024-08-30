@@ -1,0 +1,113 @@
+@ARTICLE{PLNfrontiers,
+  selected =	 {true},
+  ABBR =	 {Front Ecol Evol},
+  AUTHOR =	 {Chiquet, Julien and Mariadassou, Mahendra and Robin,
+                  Stéphane},
+  TITLE =	 {The Poisson-Lognormal Model as a Versatile Framework
+                  for the Joint Analysis of Species Abundances},
+  JOURNAL =	 {Frontiers in Ecology and Evolution},
+  VOLUME =	 9,
+  PAGES =	 188,
+  YEAR =	 2021,
+  DOI =		 {10.3389/fevo.2021.588292},
+  ISSN =	 {2296-701X},
+  biorxiv =	 {10.1101/2020.10.07.329383v1},
+  pdf = {https://www.frontiersin.org/articles/10.3389/fevo.2021.588292/pdf},
+  ABSTRACT =	 {Joint Species Distribution Models (JSDM) provide a
+                  general multivariate framework to study the joint
+                  abundances of all species from a community. JSDM
+                  account for both structuring factors (environmental
+                  characteristics or gradients, such as habitat type
+                  or nutrient availability) and potential interactions
+                  between the species (competition, mutualism,
+                  parasitism, etc.), which is instrumental in
+                  disentangling meaningful ecological interactions
+                  from mere statistical associations. Modeling the
+                  dependency between the species is challenging
+                  because of the count-valued nature of abundance data
+                  and most JSDM rely on Gaussian latent layer to
+                  encode the dependencies between species in a
+                  covariance matrix. The multivariate
+                  Poisson-lognormal (PLN) model is one such model,
+                  which can be viewed as a multivariate mixed Poisson
+                  regression model. Inferring such models raises both
+                  statistical and computational issues, many of which
+                  were solved in recent contributions using
+                  variational techniques and convex optimization
+                  tools. The PLN model turns out to be a versatile
+                  framework, within which a variety of analyses can be
+                  performed, including multivariate sample comparison,
+                  clustering of sites or samples, dimension reduction
+                  (ordination) for visualization purposes, or
+                  inferring interaction networks. This paper presents
+                  the general PLN framework and illustrates its use on
+                  a series a typical experimental datasets. All the
+                  models and methods are implemented in the
+                  <monospace>R</monospace> package
+                  <monospace>PLNmodels</monospace>, available from
+                  <ext-link ext-link-type="uri"
+                  xlink:href="http://cran.r-project.org"
+                  xmlns:xlink="http://www.w3.org/1999/xlink">cran.r-project.org</ext-link>.},
+  bibtex_show =	 {true},
+}
+
+@InProceedings{2019_ICML_CMR,
+  ABBR =	 {ICML},
+  title =	 {Variational Inference for sparse network
+                  reconstruction from count data},
+  author =	 {Chiquet, Julien and Robin, Stephane and Mariadassou,
+                  Mahendra},
+  booktitle =	 {Proceedings of the 36th International Conference on
+                  Machine Learning},
+  abstract = {The problem of network reconstruction from continuous data has been extensively studied and
+most state of the art methods rely on variants of Gaussian Graphical Models (GGM). GGM are unfortunately badly suited to sparse count data spanning several orders of magnitude. Most inference methods for count data (SparCC, REBACCA, SPIEC-EASI, gCoda, etc) first transform counts to pseudo-Gaussian observations before using GGM. We rely instead on a PoissonLogNormal (PLN) model where counts follow Poisson distributions with parameters sampled from a latent multivariate Gaussian variable, and infer the network in the latent space using a variational inference procedure. This model allows us to (i) control for confounding covariates and differences in sampling efforts and (ii) integrate data sets from different origins. It is also competitive in terms of speed and accuracy with state of the art methods.},
+  pages =	 {1162--1171},
+  year =	 2019,
+  editor =	 {Chaudhuri, Kamalika and Salakhutdinov, Ruslan},
+  volume =	 97,
+  series =	 {Proceedings of Machine Learning Research},
+  address =	 {Long Beach, California, USA},
+  month =	 {09--15 Jun},
+  publisher =	 {PMLR},
+  url = {https://proceedings.mlr.press/v97/chiquet19a.html},
+  arxiv = {1806.03120},
+  pdf =
+  {http://proceedings.mlr.press/v97/chiquet19a/chiquet19a.pdf},
+  bibtex_show =	 {true},
+}
+
+@ARTICLE{2018_AOAS_cmr,
+  ABBR =	 {Ann Appl Stat},
+  AUTHOR =	 {Julien Chiquet and Mahendra Mariadassou and
+                  St\'ephane Robin},
+  TITLE =	 {Variational inference for probabilistic Poisson PCA},
+  JOURNAL =	 {Ann. Appl. Statist.},
+  FJOURNAL =	 {The Annals of Applied Statistics},
+  abstract = {Many application domains, such as ecology or genomics, have to deal with multivariate non-Gaussian observations. A typical example is the joint observation of the respective abundances of a set of species in a series of sites aiming to understand the covariations between these species. The Gaussian setting provides a canonical way to model such dependencies but does not apply in general. We consider here the multivariate exponential family framework for which we introduce a generic model with multivariate Gaussian latent variables. We show that approximate maximum likelihood inference can be achieved via a variational algorithm for which gradient descent easily applies. We show that this setting enables us to account for covariates and offsets. We then focus on the case of the Poisson-lognormal model in the context of community ecology. We demonstrate the efficiency of our algorithm on microbial ecology datasets. We illustrate the importance of accounting for the effects of covariates to better understand interactions between species.},
+  YEAR =	 2018,
+  VOLUME =	 12,
+  NUMBER =	 4,
+  PAGES =	 {2674-2698},
+  ISSN =	 {1932-6157},
+  DOI =		 {10.1214/18-AOAS1177},
+  pdf = {https://projecteuclid.org/journals/annals-of-applied-statistics/volume-12/issue-4/Variational-inference-for-probabilistic-Poisson-PCA/10.1214/18-AOAS1177.pdf},
+  arxiv =	 {1703.06633},
+  bibtex_show =	 {true}
+}
+
+@inbook{2022_bookwiley_CCMPR,
+author = {                                                                             Chiquet                                                                      , Julien and                                                                              Cros                                                                      , Marie-Josée and                                                                              Mariadassou                                                                      , Mahendra and                                                                              Peyrard                                                                      , Nathalie and                                                                              Robin                                                                      , Stéphane},
+publisher = {John Wiley & Sons, Ltd},
+isbn = {9781119902799},
+title = {The Poisson Log-Normal Model: A Generic Framework for Analyzing Joint Abundance Distributions},
+booktitle = {Statistical Approaches for Hidden Variables in Ecology},
+chapter = {8},
+pages = {157-179},
+doi = {https://doi.org/10.1002/9781119902799.ch8},
+url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/9781119902799.ch8},
+eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/9781119902799.ch8},
+year = {2022},
+keywords = {joint species distribution models, MariNet dataset, PISCO research program, Poisson log-normal model, species abundance models},
+abstract = {Summary In this chapter, the authors illustrate the possibilities offered by the Poisson log-normal (PLN) model using marine species count data collected by the PISCO research program. Statistical models have been designed to respond to the limits, focusing on associations between species and their joint reaction to the environment. The presence–absence or abundance of all the species in question are also modeled jointly. The resulting models are known as joint species distribution models and are notably different from species abundance models, which consider the influence of the environment on the abundance of a single species. The authors also use the MariNet dataset, extracted from the PISCO data, to show how the PLN model may be used in response to three types of questions: evaluating the influence of covariates, such as site or year, on species abundance; identifying species which react to these covariates in the same way; and identifying direct interactions between species.}
+}
+
