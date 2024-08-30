@@ -5,13 +5,14 @@ date: 2024-07-26 10:14:00-0400
 description: some works around PLN discussed in the StateOftheR group
 tags: formatting toc sidebar
 categories: posts
+featured: true
 giscus_comments: true
 related_posts: false
 toc:
   sidebar: left
 ---
 
-This post refers to posts on the [StateOftheR website]() about `PLNmodels`. Be caution, some posts are written in French.
+This post refers to posts on the [StateOftheR website](https://stateofther.netlify.app/) about `PLNmodels`. Be caution, some posts are written in French.
 
 ## HappyR workshops
 
