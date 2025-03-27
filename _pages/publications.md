@@ -25,6 +25,15 @@ nav_order: 1
 
 </div>
 
+## Package paper
+
+<div class="publications">
+
+{% bibliography --file package %}
+
+</div>
+
+
 ## Preprints
 
 <div class="publications">
