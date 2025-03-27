@@ -5,5 +5,7 @@ inline: true
 related_posts: false
 ---
 
-Released of a new version of `pyPLNmodels` ! Check the [documentation](https://pypln.readthedocs.io/en/latest/pyPLNmodels.html) for more information.
+Released a new version of `pyPLNmodels` 🚀! Check the
+[documentation](https://pln-team.github.io/pyPLNmodels/) and the
+[repo](https://github.com/PLN-team/pyPLNmodels) for more information.
 
