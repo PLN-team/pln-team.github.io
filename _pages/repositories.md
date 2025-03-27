@@ -14,6 +14,12 @@ People who contributed to the code of `PLNmodels` (by order of importance)
   <img src="https://contrib.rocks/image?repo=pln-team/PLNmodels" />
 </a>
 
+and `pyPLNmodels` (by order of importance)
+
+<a href="https://github.com/pln-team/pyPLNmodels/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=pln-team/pyPLNmodels" />
+</a>
+
 ## GitHub Repositories
 
 {% if site.data.repositories.github_repos %}
