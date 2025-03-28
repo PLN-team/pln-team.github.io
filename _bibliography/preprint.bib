@@ -1,5 +1,5 @@
 @preprint{preprint_stoehr,
-      title = {Composite likelihood inference for the Poisson log-normal model}, 
+      title = {Composite likelihood inference for the Poisson log-normal model},
       author = {Stoehr, Julien and Robin, Stephane},
       year = {2024},
 	arxiv = {2402.14390v1},
@@ -32,5 +32,68 @@ abbr = {bioRxiv},
   doi       = {10.1101/2023.05.05.539529},
   publisher = {Cold Spring Harbor Laboratory},
   timestamp = {2023.12.06},
+}
+
+@misc{batardieresandwich,
+      title={Evaluating Parameter Uncertainty in the Poisson Lognormal Model with Corrected Variational Estimators},
+      author={Bastien Batardière and Julien Chiquet and Mahendra Mariadassou},
+      year={2024},
+      archivePrefix={arXiv},
+      journal={arXiv},
+      bib_tex_show = {true},
+      pdf ={https://arxiv.org/abs/2411.08524},
+      abstract={Count data analysis is essential across diverse fields, from
+                ecology and accident analysis to single-cell RNA sequencing
+                (scRNA-seq) and metagenomics. While log transformations are
+                computationally efficient, mo\-del-based approaches such as the
+                Poisson-Log-Normal (PLN) model provide robust statistical
+                foundations and are more amenable to extensions. The PLN model,
+                with its latent Gaussian structure, not only captures
+                overdispersion but also enables correlation between variables
+                and inclusion of covariates, making it suitable for
+                multivariate count data analysis. Variational approximations
+                are a golden standard to estimate parameters of complex latent
+                variable models such as PLN, maximizing a surrogate likelihood.
+                However, variational estimators lack theoretical statistical
+                properties such as consistency and asymptotic normality. In
+                this paper, we investigate the consistency and variance
+                estimation of PLN parameters using M-estimation theory. We
+                derive the Sandwich estimator, previously studied in
+                \cite{sandwich}, specifically for the PLN model. We compare
+                this approach to the variational Fisher Information method,
+                demonstrating the Sandwich estimator’s effectiveness in terms
+                of coverage through simulation studies. Finally, we validate
+                our method on a scRNA-seq dataset.},
+}
+
+
+@article{batardiereimps,
+      title={Importance sampling based gradient method for dimension reduction in Poisson Log-Normal model},
+      author={Batardière, Bastien and Kwon, Joon  and Chiquet, Julien and Stoehr, Julien},
+      year={2024},
+      archivePrefix={arXiv},
+      primaryClass={math.OC},
+      pdf={https://arxiv.org/abs/2410.00476},
+      abstract={High-dimensional count data poses significant challenges for statistical
+    analysis, necessitating effective methods that also preserve
+    explainability. We focus on a low rank constrained variant of the Poisson
+    log-normal model, which relates the observed data to a latent low-dimensional
+    multivariate Gaussian variable via a Poisson distribution. Variational
+    inference methods have become a golden standard solution to infer such a
+    model. While computationally efficient, they usually lack theoretical
+    statistical properties with respect to the model. To address this issue we
+    propose a projected stochastic gradient scheme that directly maximizes the
+    log-likelihood. We prove the convergence of the proposed method when using
+    importance sampling for estimating the gradient. Specifically, we obtain a
+    rate of convergence of $O(T^{\nicefrac{-1}{2}} + N^{-1})$ with $T$ the
+    number of iterations and $N$ the number of Monte Carlo draws. The latter
+    follows from a novel descent lemma for non convex $L$-smooth objective
+    functions, and random biased gradient estimate. We also demonstrate
+    numerically the efficiency of our solution compared to its variational
+    competitor. Our method not only scales with respect to the number of
+    observed samples but also provides access to the desirable properties of
+    the maximum likelihood estimator.},
+    bib_tex_show = {true},
+      journal={arXiv}
 }
 
